@@ -1,13 +1,7 @@
-
-
 body {
     background-color: honeydew;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-}
-
-.container{
-    
 }
 
 .card{
@@ -21,5 +15,3 @@ body {
 img {
     max-width: 200px;
 }
-
-/* Happy coding! */
