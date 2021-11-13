@@ -3,6 +3,7 @@
     --BackColor: honeydew;
     --light: wheat;
     --crimson: crimson;
+    --red: red;
 }
 /*container*/
 body {
@@ -35,7 +36,7 @@ body {
 
 /*content*/
 .picture {
-    max-width: 20em;
+    max-width: 15em;
 }
 .headline{
     padding: 3% 0 0 5%;    
@@ -45,7 +46,21 @@ body {
     font-family: Sofia;
 }
 
+.button{
+    padding-left: 5px;
+	padding-right: 5px;
+	height: 25px;
+}
+
 /*skin*/
+.btn-light{
+    background-color: var(--BackColor);
+}
+
+.btn-dark{
+    background-color: var(--red);
+}
+
 .decor{
     color: var(--crimson);
     text-decoration: underline var(--crimson);
