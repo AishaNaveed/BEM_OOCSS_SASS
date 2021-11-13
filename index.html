@@ -6,30 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <title>BEM Notation & OOCSS: Writing scaleable CSS</title>
 </head>
 
 <body>
-    <h1>BEM Wars</h1>
-    <div class="container">
-        <div class="card">
-            <h2>The Dark Side</h2>
-            <img src="./images/vader.jpeg">
-            <p>Nesting!</p>
-            <p>Conflict!</p>
-            <p>Specificity Wars!</p>
-            <p>Cookies</p>
-        </div>
+    <header>
+        <h1 class="headline decor">BEM Wars</h1>
+    </header>
+    <main>
+        <section class="container">
+            <article class="card vader">
+                <h2 class="cardHeading decor">The Dark Side</h2>
+                <img class="picture" src="./images/vader.jpeg">
+                <p>Nesting!</p>
+                <p>Conflict!</p>
+                <p>Specificity Wars!</p>
+                <p>Cookies</p>
+            </article>
 
-        <div class="card">
-            <h2>The Force</h2>
-            <img src="./images/yoda.jpeg">
-            <p>Love</p>
-            <p>Beauty</p>
-            <p>CSS that Scales!</p>
-            <p>Great warrior. Wars not make one great!</p>
-        </div>
-    </div>
+            <article class="card yoda">
+                <h2 class="cardHeading decor">The Force</h2>
+                <img class="picture" src="./images/yoda.jpeg">
+                <p>Love</p>
+                <p>Beauty</p>
+                <p>CSS that Scales!</p>
+                <p>Great warrior. Wars not make one great!</p>
+            </article>
+        </section>
+    </main>
 </body>
 
 </html>

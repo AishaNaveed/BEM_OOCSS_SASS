@@ -1,17 +1,52 @@
+:root {
+    --dark: #0F7173;
+    --BackColor: honeydew;
+    --light: wheat;
+    --crimson: crimson;
+}
+/*container*/
 body {
-    background-color: honeydew;
+    background-color: var(--BackColor);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
 
+.container{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+
 .card{
-    box-shadow: 0 4px 20px 0 crimson; /* this adds the "card" effect */
+    box-shadow: 0 4px 20px 0 var(--crimson); /* this adds the "card" effect */
     margin-left: 10%;
     padding: 1%;
     border: double;
     text-align: center;
 }
 
-img {
-    max-width: 200px;
+.yoda{
+    background-color: var(--light);
+}
+
+.vader{
+    background-color: var(--dark);
+}
+
+/*content*/
+.picture {
+    max-width: 20em;
+}
+.headline{
+    padding: 3% 0 0 5%;    
+}
+
+.cardHeading{
+    font-family: Sofia;
+}
+
+/*skin*/
+.decor{
+    color: var(--crimson);
+    text-decoration: underline var(--crimson);
 }
