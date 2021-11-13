@@ -3,7 +3,8 @@
     --BackColor: honeydew;
     --light: wheat;
     --crimson: crimson;
-    --red: red;
+    --yellowgreen: yellowgreen;
+    --darkgrey: darkslategray;
 }
 /*container*/
 body {
@@ -13,24 +14,27 @@ body {
 }
 
 .container{
+    width: 98%;
+    height: auto;
     display: flex;
     justify-content:center;
+    flex-flow: row wrap;
     flex-direction: row;
 }
 
 .card{
     box-shadow: 0 4px 20px 0 var(--crimson); /* this adds the "card" effect */
-    margin-left: 10%;
+    margin: 5%;
     padding: 1%;
     border: double;
     text-align: center;
 }
 
-.yoda{
+.back-light{
     background-color: var(--light);
 }
 
-.vader{
+.back-dark{
     background-color: var(--dark);
 }
 
@@ -46,19 +50,33 @@ body {
     font-family: Sofia;
 }
 
+/*skin*/
 .button{
-    padding-left: 5px;
-	padding-right: 5px;
-	height: 25px;
+	height: 8%;
+    border: 2px groove black;
+    transition-duration: 0.4s;
+    font-family: Gotu;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
-/*skin*/
+.button :hover {
+    background-color: var(--yellowgreen);
+    color: var(--BackColor);
+	border-bottom: 3px solid var(--dark);
+}
+
+.btn-link{
+    color: var(--darkgrey);
+	text-decoration: none;
+}
+
 .btn-light{
     background-color: var(--BackColor);
 }
 
 .btn-dark{
-    background-color: var(--red);
+    background-color: var(--crimson);
 }
 
 .decor{
