@@ -50,3 +50,18 @@ body {
     color: var(--crimson);
     text-decoration: underline var(--crimson);
 }
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media only screen and (max-width: 700px) {
+    .container {
+      width: 98%;
+      flex-direction: column;
+    }
+    .picture{
+        width: 95%;
+    }
+    .card{
+        width: 95%;
+    }
+}
