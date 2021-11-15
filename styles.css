@@ -30,11 +30,11 @@ body {
     text-align: center;
 }
 
-.back-light{
+.back--light{
     background-color: var(--light);
 }
 
-.back-dark{
+.back--dark{
     background-color: var(--dark);
 }
 
@@ -67,16 +67,16 @@ body {
 	border-bottom: 3px solid var(--dark);
 }
 
-.btn-link{
+.btn--link{
     color: var(--darkgrey);
 	text-decoration: none;
 }
 
-.btn-light{
+.btn--light{
     background-color: var(--BackColor);
 }
 
-.btn-dark{
+.btn--dark{
     background-color: var(--crimson);
 }
 
