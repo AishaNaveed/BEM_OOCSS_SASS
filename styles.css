@@ -1,14 +1,15 @@
 :root {
     --dark: #0F7173;
-    --BackColor: honeydew;
+    --backColor: honeydew;
     --light: wheat;
-    --crimson: crimson;
-    --yellowgreen: yellowgreen;
-    --darkgrey: darkslategray;
+    --warning: crimson;
+    --pear: #d1e231;
+    --charcoal: darkslategray;
+    
 }
 /*container*/
 body {
-    background-color: var(--BackColor);
+    background-color: var(--backColor);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
@@ -23,18 +24,18 @@ body {
 }
 
 .card{
-    box-shadow: 0 4px 20px 0 var(--crimson); /* this adds the "card" effect */
+    box-shadow: 0 4px 20px 0 var(--warning); /* this adds the "card" effect */
     margin: 5%;
     padding: 1%;
     border: double;
     text-align: center;
 }
 
-.back--light{
+.card--light{
     background-color: var(--light);
 }
 
-.back--dark{
+.card--dark{
     background-color: var(--dark);
 }
 
@@ -42,6 +43,7 @@ body {
 .picture {
     max-width: 15em;
 }
+
 .headline{
     padding: 3% 0 0 5%;    
 }
@@ -62,29 +64,28 @@ body {
 }
 
 .button :hover {
-    background-color: var(--yellowgreen);
-    color: var(--BackColor);
+    background-color: var(--pear);
+    color: var(--backColor);
 	border-bottom: 3px solid var(--dark);
 }
 
-.btn--link{
-    color: var(--darkgrey);
+.button--link{
+    color: var(--charcoal);
 	text-decoration: none;
 }
 
-.btn--light{
-    background-color: var(--BackColor);
+.button--light{
+    background-color: var(--backColor);
 }
 
-.btn--dark{
-    background-color: var(--crimson);
+.button--dark{
+    background-color: var(--warning);
 }
 
 .decor{
-    color: var(--crimson);
-    text-decoration: underline var(--crimson);
+    color: var(--warning);
+    text-decoration: underline var(--warning);
 }
-
 
 /* Responsive columns - one column layout (vertical) on small screens */
 @media only screen and (max-width: 700px) {
