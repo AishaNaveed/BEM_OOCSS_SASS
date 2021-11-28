@@ -5,12 +5,14 @@
     --warning: crimson;
     --pear: #d1e231;
     --charcoal: darkslategray;
-    
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*container*/
 body {
     background-color: var(--backColor);
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
 
@@ -35,6 +37,10 @@ body {
     background-color: var(--light);
 }
 
+.radius{
+    border-radius: 0.5em;
+}
+
 .card--dark{
     background-color: var(--dark);
 }
@@ -45,10 +51,12 @@ body {
 }
 
 .headline{
+    text-align: center;
     padding: 3% 0 0 5%;    
+    font-size: 3em;
 }
 
-.cardHeading{
+.card__Heading{
     font-family: Sofia;
 }
 
@@ -56,8 +64,6 @@ body {
 .button{
 	height: 8%;
     border: 2px groove black;
-    transition-duration: 0.4s;
-    font-family: Gotu;
     font-size: 1.5em;
     font-weight: bold;
     cursor: pointer;
@@ -67,6 +73,7 @@ body {
     background-color: var(--pear);
     color: var(--backColor);
 	border-bottom: 3px solid var(--dark);
+    
 }
 
 .button--link{
