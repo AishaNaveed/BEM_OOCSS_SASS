@@ -1,5 +1,5 @@
 .card{
-    box-shadow: 0 4px 15px 0 $warning; /* this adds the "card" effect */
+    box-shadow: 0 4px 15px 0 $warning;
     margin: $base-margin;
     padding: $base-padding;
     border: double;
@@ -10,6 +10,7 @@
     img {
         max-width: $base-font-weight;
         max-height: $base-image-height;
+        border-radius: $base-border-radius;
     } 
     button{
         border: $base-box-shadow;

@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: var($backColor);
+    background-color: $black;
     font-size: $base-font-size;
 }
 
@@ -19,10 +19,13 @@ body {
 }
 .headline{
     text-align: center;
+    margin: $base-margin;
     padding: $base-padding;    
     font-size: $font-size-xxl;
     font-family: $primary-font;
-    color:$dark;
+    color:$warning;
+    border-radius: $base-border-radius;
+    box-shadow: 2px 4px 15px 2px $warning; /* this adds the "card" effect */
 }
 
 .decor{

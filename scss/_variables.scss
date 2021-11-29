@@ -1,19 +1,20 @@
 $dark: #0F7173;
-$whitish: #cbdbf3;
-$backColor: white;
-$light: wheat;
+$bluish: #cbdbf3;
+$ice: #ffffff;
+$light: #ecd8b2;
 $warning: crimson;
 $pear: #d1e231;
-$black: black;
+$black: #2c2b2b;
 
 //colors palatte
 $colors: (
     "dark": $dark,
-    "whitish": $whitish,
-    "light": wheat,
-    "warning": crimson,
+    "ice": $ice,
+    "bluish": $bluish,
+    "light": $light,
+    "warning": $warning,
     "pear": $pear,
-    "black": black
+    "black": $black
 );
 
 // font sizes
