@@ -1,0 +1,25 @@
+
+//variables and functions
+@import 'variables';
+@import 'base';
+@import 'card';
+
+@each $key, $value in $colors{
+    .back-#{$key} {
+        background-color: $value;
+    }
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media only screen and (max-width: 700px) {
+    .container {
+      width: 98%;
+      flex-direction: column;
+    }
+    .picture{
+        width: 95%;
+    }
+    .card{
+        width: 95%;
+    }
+}

@@ -1,0 +1,30 @@
+.card{
+    box-shadow: 0 4px 15px 0 $warning; /* this adds the "card" effect */
+    margin: $base-margin;
+    padding: $base-padding;
+    border: double;
+    text-align: center;
+    .card__Heading{
+        font-family: $primary-font;
+    }    
+    img {
+        max-width: $base-font-weight;
+        max-height: $base-image-height;
+    } 
+    button{
+        border: $base-box-shadow;
+        font-size: $font-size-lg;
+        font-weight: $base-font-weight;
+        cursor: pointer;
+        padding-bottom: $base-padding;  
+        box-shadow: 0 4px 15px 0 $pear; 
+        a{
+            color: $black;
+            text-decoration: none;        
+        }
+    }    
+    button:hover{
+        background-color: $pear;
+        border-radius: $base-border-radius;
+    }
+}

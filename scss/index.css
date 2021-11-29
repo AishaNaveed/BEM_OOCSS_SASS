@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+* {
+  font-family: Arial;
+}
+
+body {
+  background-color: var(white);
+  font-size: 1em;
+}
+
+.container {
+  width: 98%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+.headline {
+  text-align: center;
+  padding: 0.75rem;
+  font-size: 3em;
+  font-family: Sofia;
+  color: #0F7173;
+}
+
+.decor {
+  border-radius: 0.5em;
+}
+
+.card {
+  -webkit-box-shadow: 0 4px 15px 0 crimson;
+          box-shadow: 0 4px 15px 0 crimson;
+  /* this adds the "card" effect */
+  margin: 1rem;
+  padding: 0.75rem;
+  border: double;
+  text-align: center;
+}
+
+.card .card__Heading {
+  font-family: Sofia;
+}
+
+.card img {
+  max-width: 100;
+  max-height: 15em;
+}
+
+.card button {
+  border: 1px 3px 5px #0000001a;
+  font-size: 1.5em;
+  font-weight: 100;
+  cursor: pointer;
+  padding-bottom: 0.75rem;
+  -webkit-box-shadow: 0 4px 15px 0 #d1e231;
+          box-shadow: 0 4px 15px 0 #d1e231;
+}
+
+.card button a {
+  color: black;
+  text-decoration: none;
+}
+
+.card button:hover {
+  background-color: #d1e231;
+  border-radius: 0.5em;
+}
+
+.back-dark {
+  background-color: #0F7173;
+}
+
+.back-whitish {
+  background-color: #cbdbf3;
+}
+
+.back-light {
+  background-color: wheat;
+}
+
+.back-warning {
+  background-color: crimson;
+}
+
+.back-pear {
+  background-color: #d1e231;
+}
+
+.back-black {
+  background-color: black;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 98%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .picture {
+    width: 95%;
+  }
+  .card {
+    width: 95%;
+  }
+}
+/*# sourceMappingURL=index.css.map */

@@ -5,85 +5,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../scss/index.css">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"> -->
     <title>BEM Notation & OOCSS: Writing scaleable CSS</title>
 </head>
 
 <body>
     <header>
-        <h1 class="headline decor card__Heading">BEM Wars</h1>
+        <h1 class="headline">BEM Wars</h1>
     </header>
     <main class="container">
-        <article class="card card--dark radius">
-            <h2 class="card__Heading decor">The Dark Side</h2>
-            <img class="picture" src="./images/vader.jpeg">
+        <article class="card decor back-dark">
+            <h2 class="card__Heading">The Dark Side</h2>
+            <img src="./images/vader.jpeg">
             <p>Nesting!</p>
             <p>Conflict!</p>
             <p>Specificity Wars!</p>
             <p>Cookies</p>
-            <button type="button" class="button button--dark radius">
-                <a class="button--link" href="#">Danger</a>
+            <button type="button" class="back-warning decor">
+                <a href="#">Danger</a>
             </button>
         </article>
 
-        <article class="card card--light radius">
-            <h2 class="card__Heading decor">The Force</h2>
-            <img class="picture" src="./images/yoda.jpeg">
+        <article class="card decor">
+            <h2 class="card__Heading">The Force</h2>
+            <img src="./images/yoda.jpeg">
             <p>Love</p>
             <p>Beauty</p>
             <p>CSS that Scales!</p>
             <p>Great warrior. Wars not make one great!</p>
-            <button type="button" class="button button--light radius">
-                <a class="button--link" href="#">Safe</a>
+            <button type="button" class="back-light decor">
+                <a href="#">Safe</a>
             </button>
         </article>
 
-        <article class="card radius">
-            <h2 class="card__Heading decor">Ben Kenobi</h2>
-            <img class="picture" src="./images/Ben_Kenobi.png">
+        <article class="card decor back-light">
+            <h2 class="card__Heading">Ben Kenobi</h2>
+            <img src="./images/Ben_Kenobi.png">
             <p> human male Jedi Master</p>
             <p>fictional character</p>
             <p>a noble man and gifted in the ways of the Force</p>
-            <button type="button" class="button button--dark radius">
-                <a class="button--link" href="#">Ben Kenobi</a>
+            <button type="button" class="back-dark decor">
+                <a href="#">Ben Kenobi</a>
             </button>
         </article>
 
-        <article class="card card--light radius">
-            <h2 class="card__Heading decor">luke skywalker</h2>
-            <img class="picture" src="./images/luke_skywalker.jpg">
+        <article class="card decor back-whitish">
+            <h2 class="card__Heading">luke skywalker</h2>
+            <img src="./images/luke_skywalker.jpg">
             <p>protagonist</p>
             <p>legendary Jedi Master </p>
             <p>battled the evil Empire</p>
             <p>greatest Jedi the galaxy has ever known</p>
-            <button type="button" class="button button--light radius">
-                <a class="button--link" href="#">Luke</a>
+            <button type="button" class="back-dark decor">
+                <a href="#">Luke</a>
             </button>
         </article>
 
-        <article class="card radius">
-            <h2 class="card__Heading decor">R2-D2</h2>
-            <img class="picture" src="./images/R2-D2.png">
+        <article class="card decor back-warning">
+            <h2 class="card__Heading">R2-D2</h2>
+            <img src="./images/R2-D2.png">
             <p>diminutive droid</p>
             <p>0.96 meters tall</p>
             <p>rolled on three legs</p>
             <p>one of his leg could retract into his body</p>
-            <button type="button" class="button button--dark radius">
-                <a class="button--link" href="#">R2-D2</a>
+            <button type="button" class="back-whitish decor">
+                <a href="#">R2-D2</a>
             </button>
         </article>
 
-        <article class="card card--dark radius">
-            <h2 class="card__Heading decor">princes leia</h2>
-            <img class="picture" src="./images/princes_leia.jpg">
+        <article class="card decor back-whitish">
+            <h2 class="card__Heading ">princes leia</h2>
+            <img src="./images/princes_leia.jpg">
             <p>Rebel Alliance's greatest leaders</p>
             <p>Daughter of Padmé Amidala and Anakin Skywalker</p>
             <p> fearless on the battlefield</p>
             <p>Leia ranks among the galaxy's great heroes</p>
-            <button type="button" class="button button--light radius">
-                <a class="button--link" href="#">princes</a>
+            <button type="button" class="back-warning decor">
+                <a href="#">princes</a>
             </button>
         </article>
     </main>

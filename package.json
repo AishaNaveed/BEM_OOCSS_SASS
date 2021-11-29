@@ -1,0 +1,19 @@
+{
+  "name": "learner_materials_bem_and_oocss",
+  "version": "1.0.0",
+  "description": "A project on how to write scaleable CSS using BEM notation and OOCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AishaNaveed/learner_materials_bem_and_oocss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AishaNaveed/learner_materials_bem_and_oocss/issues"
+  },
+  "homepage": "https://github.com/AishaNaveed/learner_materials_bem_and_oocss#readme"
+}
